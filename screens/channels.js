@@ -40,4 +40,4 @@ const  channelSection = {
     }
 }
 
-export default channelSection;
+export default channelSection

@@ -1,4 +1,4 @@
-import channelSection from './screens/channels.js';
+import channelSection from '../screens/channels.js';
 
 // navbar
 const bar = document.getElementById('bar')
@@ -19,4 +19,9 @@ close.addEventListener('click', function(){
 const channelsContainer = document.getElementById('channels-container')
 channelsContainer.innerHTML = channelSection.render();
 // channels render end
+
+// aos animations
+AOS.init();
+// aos end
+//
 
